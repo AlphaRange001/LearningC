@@ -55,24 +55,97 @@
 //     printf("%d",*n);
 // }
 
-int swap(int *a, int *b, int *c);
-int main()
-{
-    int a = 3;
-    int b = 4;
-    int c;
-    // c = a;
-    // a = b;
-    // b = c;
-    printf("a=%d\nb=%d\n",a,b);
-    swap(&a, &b, &c);
-    printf("a=%d\nb=%d", a, b);
-}
+// Q-3
 
-int swap(int *a, int *b, int *c)
-{
-    *c = *a;
-    *a = *b;
-    *b = *c;
-    printf("a=%d\nb=%d\n", * a, *b);
-}
+// int swap(int *a, int *b, int *c);
+// int main()
+// {
+//     int a = 3;
+//     int b = 4;
+//     int c;
+//     // c = a;
+//     // a = b;
+//     // b = c;
+//     printf("a=%d\nb=%d\n",a,b);
+//     swap(&a, &b, &c);
+//     printf("a=%d\nb=%d", a, b);
+// }
+
+// int swap(int *a, int *b, int *c)
+// {
+//     *c = *a;
+//     *a = *b;
+//     *b = *c;
+//     printf("a=%d\nb=%d\n", * a, *b);
+// }
+
+// Q-3
+
+// int sum(int *x,int *y);
+// int product(int *x,int *y);
+// int avg(int *x,int *y);
+// int main(){
+// int x=3;
+// int y=4;
+// sum(&x,&y);
+// product(&x,&y);
+// avg(&x,&y);
+// }
+// int sum(int *x,int *y){
+//     int z=(*x)+(*y);
+//     printf("%d\n",z);
+// }
+// int product(int *x,int *y){
+//     int z=(*x)*(*y);
+//     printf("%d\n",z);
+// }
+// int avg(int *x,int *y){
+//     float z=((*x)+(*y))/2;
+//     printf("%f\n",z);
+// }
+
+// Q-4
+
+// int max(int *x,int *y);
+// int main(){
+// int a=40;
+// int b=5;
+// max(&a,&b);
+// }
+// int max(int *x,int *y){
+//     if((*x)>(*y)){
+//         printf("%d is greater\n",*x);
+//     }
+//     else{
+//         printf("%d is greater\n",*y);
+//     }
+// }
+
+// Q-5
+
+// #include <stdio.h>
+
+
+
+// int main()
+// {
+//     int arr[] = {5, 3, 2, 8, 6};
+//     for (int i = 0; i < 5; i++)
+//     {
+//         for (int j = i+1; j < 5; j++)
+//         {
+//             if (arr[i] > arr[j])
+//             {
+//                 int temp = arr[i];
+//                 arr[i] = arr[j];
+//                 arr[j] = temp;
+//             }
+//         }
+//     }
+//     for (int i = 0; i < 5; i++)
+//     {
+//         printf("%d\n", arr[i]);
+//     }
+// }
+
+
