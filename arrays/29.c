@@ -48,5 +48,27 @@
 
 //     return 0;
 // }
-// CPP program to find the most frequent element in an array.
- 
+//Right half pyramid pattern of stars using C
+#include <stdio.h>
+#include <string.h>
+
+void rotateAndPrint(char str[]);
+
+int main() {
+    char str[] = "1234";
+    
+    rotateAndPrint(str);
+
+    return 0;
+}
+
+void rotateAndPrint(char str[]) {
+    int len = strlen(str);
+    for (int i = 0; i < len; i++) {
+        // Print the rotated string
+        for (int j = 0; j < len; j++) {
+            printf("%c", str[(i + j) % len]);
+        }
+        printf("\n"); // Move to the next line
+    }
+}
