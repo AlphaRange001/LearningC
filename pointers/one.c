@@ -23,4 +23,5 @@
 int main(){
     char str[]="hellovivek";
     printf("%d",strlen(str));
+    // hello
 }
